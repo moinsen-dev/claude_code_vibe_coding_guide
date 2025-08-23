@@ -1,0 +1,22 @@
+{
+  "name": "claude-code-best-practices",
+  "version": "1.0.0",
+  "description": "Best practices and starter template for Claude Code development",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0"
+  },
+  "keywords": [
+    "claude-code",
+    "ai-development",
+    "best-practices",
+    "documentation"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
