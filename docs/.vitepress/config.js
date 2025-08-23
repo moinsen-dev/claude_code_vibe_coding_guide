@@ -1,6 +1,8 @@
 import { defineConfig } from "vitepress";
+import { withMermaid } from "vitepress-plugin-mermaid";
 
-export default defineConfig({
+export default withMermaid(
+  defineConfig({
   title: "Vibe Coding Guide",
   description: "Master the art of vibe coding with Claude Code - achieve flow-state development through AI collaboration",
 
@@ -44,7 +46,9 @@ export default defineConfig({
           text: 'Specialized',
           items: [
             { text: '@ask.md', link: '/commands/ask' },
-            { text: '@goals.md', link: '/commands/goals' }
+            { text: '@goals.md', link: '/commands/goals' },
+            { text: '@prd.md', link: '/commands/prd' },
+            { text: '@state_tracker.md', link: '/commands/state_tracker' }
           ]
         }
       ],
@@ -97,6 +101,9 @@ export default defineConfig({
           text: 'Advanced Techniques',
           items: [
             { text: 'Overview', link: '/advanced/' },
+            { text: 'Project Lifecycle', link: '/advanced/project-lifecycle' },
+            { text: 'Command Integration', link: '/advanced/command-integration' },
+            { text: 'Model Selection', link: '/advanced/model-selection' },
             { text: 'CLI Automation', link: '/advanced/cli-automation' },
             { text: 'Custom Agents', link: '/advanced/custom-agents' },
             { text: 'Automation', link: '/advanced/automation' },
@@ -158,4 +165,18 @@ export default defineConfig({
   base: "/claude_code_vibe_coding_guide/",
 
   head: [["meta", { name: "theme-color", content: "#3c8772" }]],
-});
+  
+  mermaid: {
+    theme: 'default',
+    themeVariables: {
+      primaryColor: '#3c8772',
+      primaryTextColor: '#ffffff',
+      primaryBorderColor: '#2e6653',
+      lineColor: '#555555',
+      sectionBkgColor: '#f9f9f9',
+      altSectionBkgColor: '#ffffff',
+      gridColor: '#e0e0e0'
+    }
+  }
+  })
+);

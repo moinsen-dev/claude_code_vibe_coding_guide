@@ -27,7 +27,10 @@ features:
 ## Why Vibe Coding?
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/vibe-coding-guide.png" alt="Vibe Coding Guide - Because best practices can have rhythm" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="/vibe-coding-guide-dark.png">
+    <img src="/vibe-coding-guide.png" alt="Vibe Coding Guide - Because best practices can have rhythm" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+  </picture>
 </div>
 
 There's a magic moment when working with Claude Code stops feeling like using a tool and starts feeling like collaboration with an insightful partner. This guide teaches you how to find and sustain that flow state consistently.

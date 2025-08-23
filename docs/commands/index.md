@@ -26,6 +26,8 @@ Advanced commands for specific domains and complex workflows.
 
 - **@ask.md** - Senior systems architect consultation
 - **@goals.md** - Project coordination with team management
+- **@prd.md** - Product Requirements Document generation with strategic analysis
+- **@state_tracker.md** - Visual phase-based progress tracking with emoji states
 
 ## Why Use Commands?
 
