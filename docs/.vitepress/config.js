@@ -11,17 +11,32 @@ export default withMermaid(
       nav: [
         { text: "Home", link: "/" },
         { text: "Getting Started", link: "/getting-started" },
-        { text: "Commands", link: "/commands/" },
-        { text: "Agents", link: "/agents/" },
-        { text: "Hooks", link: "/hooks/" },
-        { text: "MCP", link: "/mcp/" },
-        { text: "Best Practices", link: "/best-practices/" },
-        { text: "Use Cases", link: "/use-cases/" },
-        { text: "Advanced", link: "/advanced/" },
-        { text: "Examples", link: "/examples/" },
+        {
+          text: "Features",
+          items: [
+            { text: "Commands", link: "/commands/" },
+            { text: "Agents", link: "/agents/" },
+            { text: "Hooks", link: "/hooks/" },
+            { text: "MCP", link: "/mcp/" },
+          ],
+        },
+        {
+          text: "Guides",
+          items: [
+            { text: "Best Practices", link: "/best-practices/" },
+            { text: "Advanced", link: "/advanced/" },
+          ],
+        },
+        {
+          text: "Resources",
+          items: [
+            { text: "Use Cases", link: "/use-cases/" },
+            { text: "Examples", link: "/examples/" },
+            { text: "Tips & Tricks", link: "/tips-and-tricks" },
+            { text: "Troubleshooting", link: "/troubleshooting" },
+          ],
+        },
         { text: "Business", link: "/business/" },
-        { text: "Tips & Tricks", link: "/tips-and-tricks" },
-        { text: "Troubleshooting", link: "/troubleshooting" },
       ],
 
       sidebar: {
