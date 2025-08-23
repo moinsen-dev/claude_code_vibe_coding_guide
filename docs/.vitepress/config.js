@@ -8,13 +8,78 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Getting Started", link: "/getting-started" },
+      { text: "Commands", link: "/commands/" },
+      { text: "Agents", link: "/agents/" },
+      { text: "Hooks", link: "/hooks/" },
+      { text: "MCP", link: "/mcp/" },
       { text: "Best Practices", link: "/best-practices/" },
+      { text: "Use Cases", link: "/use-cases/" },
       { text: "Advanced", link: "/advanced/" },
       { text: "Examples", link: "/examples/" },
+      { text: "Tips & Tricks", link: "/tips-and-tricks" },
       { text: "Troubleshooting", link: "/troubleshooting" }
     ],
 
     sidebar: {
+      '/commands/': [
+        {
+          text: 'Command Overview',
+          items: [
+            { text: 'Overview', link: '/commands/' }
+          ]
+        },
+        {
+          text: 'Core Development',
+          items: [
+            { text: '@code.md', link: '/commands/code' },
+            { text: '@debug.md', link: '/commands/debug' },
+            { text: '@test.md', link: '/commands/test' },
+            { text: '@review.md', link: '/commands/review' },
+            { text: '@refactor.md', link: '/commands/refactor' },
+            { text: '@optimize.md', link: '/commands/optimize' },
+            { text: '@deploy-check.md', link: '/commands/deploy-check' }
+          ]
+        },
+        {
+          text: 'Specialized',
+          items: [
+            { text: '@ask.md', link: '/commands/ask' },
+            { text: '@goals.md', link: '/commands/goals' }
+          ]
+        }
+      ],
+      '/agents/': [
+        {
+          text: 'Agents',
+          items: [
+            { text: 'Overview', link: '/agents/' }
+          ]
+        }
+      ],
+      '/hooks/': [
+        {
+          text: 'Hooks',
+          items: [
+            { text: 'Overview', link: '/hooks/' }
+          ]
+        }
+      ],
+      '/mcp/': [
+        {
+          text: 'MCP Overview',
+          items: [
+            { text: 'Overview', link: '/mcp/' }
+          ]
+        },
+        {
+          text: 'MCP Servers',
+          items: [
+            { text: 'Browser MCP', link: '/mcp/browsermcp' },
+            { text: 'Sequential Thinking', link: '/mcp/sequential-thinking' },
+            { text: 'Time Server', link: '/mcp/time' }
+          ]
+        }
+      ],
       '/best-practices/': [
         {
           text: 'Best Practices',
@@ -32,6 +97,7 @@ export default defineConfig({
           text: 'Advanced Techniques',
           items: [
             { text: 'Overview', link: '/advanced/' },
+            { text: 'CLI Automation', link: '/advanced/cli-automation' },
             { text: 'Custom Agents', link: '/advanced/custom-agents' },
             { text: 'Automation', link: '/advanced/automation' },
             { text: 'Templates', link: '/advanced/templates' },
@@ -41,6 +107,15 @@ export default defineConfig({
             { text: 'Context Management', link: '/advanced/context' },
             { text: 'Tool Integration', link: '/advanced/tools' },
             { text: 'Batch Operations', link: '/advanced/batch' }
+          ]
+        }
+      ],
+      '/use-cases/': [
+        {
+          text: 'Use Cases',
+          items: [
+            { text: 'Overview', link: '/use-cases/' },
+            { text: 'Migration Comparison', link: '/use-cases/migration-comparison' }
           ]
         }
       ],

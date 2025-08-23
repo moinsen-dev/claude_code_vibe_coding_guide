@@ -90,6 +90,164 @@ Solutions to common vibe coding challenges and Claude Code issues.
    sudo purge  # macOS
    ```
 
+## Don't Believe Your Coding Agent
+
+::: danger Critical Reality Check
+**AI coding agents lie.** They don't intentionally deceive, but they often report success when builds actually fail, claim functionality works when it's broken, and express confidence about code that has serious errors.
+
+**Example of AI Overconfidence**:
+```
+AI Output: "✅ Build passes successfully - The application is ready for production use!"
+
+Reality: "Failed to compile. Type error: WorkflowEdge[] is not assignable to Edge[]"
+```
+
+**Why This Happens**:
+- AI agents don't actually run your code
+- They predict what *should* happen, not what *does* happen  
+- They're optimized to sound confident and positive
+- They can't see the actual build output or runtime errors
+:::
+
+### Always Verify AI Claims
+
+::: warning Trust But Verify
+**Never deploy without validation**:
+- **Run the build yourself** after AI makes changes
+- **Test critical functionality** manually
+- **Check type errors** and linting warnings
+- **Verify tests still pass** after modifications
+- **Review AI code changes** line by line
+:::
+
+### Red Flags in AI Responses
+
+::: tip Suspicious Confidence Indicators
+Watch for overly confident language when the AI hasn't actually executed anything:
+
+- "✅ Successfully implemented..." (without running code)
+- "The build will pass" (prediction, not fact)  
+- "Everything is working perfectly" (no actual testing done)
+- "Ready for production" (hasn't seen runtime behavior)
+
+**Healthy skepticism saves debugging time.**
+:::
+
+### Verification Workflow
+
+1. **AI makes changes** → 2. **You run build/tests** → 3. **Fix actual errors** → 4. **Repeat if needed**
+
+Never skip step 2. The AI's confidence doesn't correlate with code correctness.
+
+## Technology Limitations
+
+::: danger New & Experimental Technology Warning
+**Critical Understanding**: AI coding agents, including Claude Code, have significant limitations with very new or rarely used technologies.
+
+**The Problem**: Large Language Models (LLMs) cannot learn from documentation on-the-fly. They must be trained on technologies during their training phase. Simply providing links to documentation or GitHub repos **does not help** - the AI cannot truly "read" and understand new information the way humans can.
+
+**Common Pitfall**: Developers often assume that if they can find documentation for a new framework or library, the AI can use it effectively. This leads to frustration when the AI:
+- Gives generic, unhelpful responses
+- Makes up APIs that don't exist  
+- Suggests outdated or incorrect approaches
+- Says "yes" to everything but delivers poor results
+:::
+
+### Before Using New Technology
+
+::: tip Start with a Capability Check
+**Always test the AI's knowledge first** before committing to a new technology:
+
+```
+"Do you have specific experience with [New Framework v2.0]? 
+Can you show me a basic example of [specific feature] 
+without looking up documentation?"
+```
+
+**Red flags in responses**:
+- Vague, generic explanations
+- "You should check the documentation for details"
+- Code that feels like guesswork
+- Mixing concepts from similar but different technologies
+:::
+
+### Proof of Concept Strategy
+
+::: info Smart POC Approach
+1. **Start Small**: Ask for a minimal working example
+2. **Test Core Features**: Verify the AI can handle key functionality
+3. **Validate Accuracy**: Check generated code against official docs
+4. **Assess Confidence**: Pay attention to hedging language ("This might work...", "You may need to...")
+
+**Good POC Test**:
+```
+"Create a minimal working example of [new technology] that demonstrates 
+[specific core feature]. Don't use generic placeholders - show actual 
+implementation with realistic data."
+```
+:::
+
+### What to Do When AI Knowledge is Limited
+
+::: warning Alternative Strategies
+**When the AI admits limitations or produces poor results**:
+
+1. **Ask for Alternatives**: 
+   ```
+   "What mature, well-established alternatives to [new tech] 
+   would you recommend that achieve similar goals?"
+   ```
+
+2. **Use Established Patterns**:
+   ```
+   "How would you solve [problem] using technologies you're 
+   confident with, like React/Node.js/Python?"
+   ```
+
+3. **Focus on Architecture**:
+   ```
+   "Help me design the overall architecture and interfaces. 
+   I'll implement the new technology parts manually."
+   ```
+
+4. **Incremental Adoption**:
+   ```
+   "Let's build this with [established tech] first, then 
+   identify specific parts to migrate to [new tech] later."
+   ```
+:::
+
+### Technology Maturity Guidelines
+
+::: tip Safe Technology Choices
+**High Confidence** (AI works well):
+- **Established frameworks**: React, Vue, Angular, Express, Django, Rails
+- **Mature languages**: JavaScript/TypeScript, Python, Java, C#, Go
+- **Standard libraries**: Popular npm packages with 100K+ downloads
+- **Proven patterns**: REST APIs, SQL databases, common architectures
+
+**Moderate Confidence** (Test thoroughly):
+- **Recent stable releases**: Major version updates of established tools
+- **Emerging standards**: Well-documented but newer technologies
+- **Popular beta software**: High community adoption but still evolving
+
+**Low Confidence** (Avoid or use minimally):
+- **Alpha/Beta releases**: Unstable APIs and frequent changes
+- **Brand new frameworks**: Less than 6 months old
+- **Experimental features**: Not yet in stable release
+- **Niche technologies**: Very specialized or low adoption
+:::
+
+### Signs Your Technology Choice May Be Too New
+
+- **Documentation is scarce** or constantly changing
+- **Stack Overflow has few questions** about the technology
+- **GitHub issues outnumber** resolved discussions
+- **Community tutorials are outdated** within months
+- **Breaking changes occur frequently** between minor versions
+
+**Remember**: The goal is productive development, not using the newest tools. Choose technologies that enable both you and your AI assistant to work effectively together.
+
 ## Communication Issues
 
 ### Claude Doesn't Understand My Project
