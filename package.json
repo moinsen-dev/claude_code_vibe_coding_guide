@@ -1,11 +1,12 @@
 {
-  "name": "claude-code-best-practices",
-  "version": "1.0.0",
-  "description": "Best practices and starter template for Claude Code development",
+  "name": "claude-code-vibe-coding-guide",
+  "version": "0.2.0",
+  "description": "Master the art of vibe coding with Claude Code - achieve flow-state development through AI collaboration",
   "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
+    "docs:build": "vitepress build docs",
     "preview": "vitepress preview docs"
   },
   "devDependencies": {
@@ -13,10 +14,12 @@
   },
   "keywords": [
     "claude-code",
+    "vibe-coding",
     "ai-development",
-    "best-practices",
-    "documentation"
+    "flow-state",
+    "documentation",
+    "best-practices"
   ],
-  "author": "Your Name",
+  "author": "Moinsen Development Team",
   "license": "MIT"
 }
