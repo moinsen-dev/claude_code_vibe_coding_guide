@@ -70,3 +70,10 @@ You are a specialist focused on [specific task area].
 - Testing guidance
 - Next steps
 ```
+
+## Advanced Command Development
+
+Once you've mastered the basics, explore these advanced patterns:
+
+- **[Personal Commands](/commands/personal-commands)** - Build portable workflows that work across all projects
+- **[Command Patterns](/commands/command-patterns)** - Master sophisticated composition and orchestration techniques

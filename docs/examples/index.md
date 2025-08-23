@@ -67,7 +67,13 @@ think through different approaches with me and help me pick the best one?"
 
 ## Real-World Case Studies
 
-🚧 **Coming Soon**: Detailed walkthroughs of actual projects built with vibe coding techniques.
+### 📈 Production Examples
+Complete case studies from actual projects:
+
+- **[Real-World Case Studies](/examples/real-world-examples)** - Detailed examples including:
+  - **TaskFlow SaaS**: $0 to $10K MRR in 16 weeks using Claude Code workflows
+  - **Open Source Migration**: ReactQuery → TanStack affecting 50K+ repositories  
+  - **Enterprise Modernization**: Fortune 500 legacy system ($2B daily transactions)
 
 ## Contributing Examples
 

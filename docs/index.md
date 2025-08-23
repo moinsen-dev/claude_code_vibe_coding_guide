@@ -59,7 +59,35 @@ This guide complements the excellent [official Claude Code documentation](https:
 
 ## Start Your Vibe Coding Journey
 
-Ready to transform how you develop with AI? [Begin with the essentials](/getting-started) or explore [specific techniques](/best-practices/) that resonate with you.
+Choose your path based on your experience and goals:
+
+### 🌱 **Beginner Path**
+Start here if you're new to Claude Code or AI-assisted development:
+1. [Get Started](/getting-started) - Essential setup and first steps
+2. [Best Practices](/best-practices/) - Communication and workflow fundamentals  
+3. [Commands](/commands/) - Master the command system
+4. [Examples](/examples/) - See patterns in action
+
+### 🚀 **Intermediate Path**
+Ready to build sophisticated workflows:
+1. [Agents & Subagents](/agents/) - Multi-agent collaboration
+2. [Hooks & Automation](/hooks/) - Intelligent workflow automation
+3. [Personal Commands](/commands/personal-commands) - Build portable workflows
+4. [Advanced Patterns](/commands/command-patterns) - Master command composition
+
+### ⚡ **Advanced Path**
+Transform your entire development process:
+1. [Idea to Production](/advanced/idea-to-production) - Complete project workflows
+2. [Real-World Examples](/examples/real-world-examples) - Production case studies
+3. [Subagent Patterns](/agents/subagent-patterns) - Enterprise-scale coordination
+4. [Automation Recipes](/hooks/automation-recipes) - Production-ready automation
+
+### 🏢 **Business & Enterprise Path**
+For leaders and organizations adopting AI-assisted development:
+1. [Business Case & ROI](/business/) - Quantified benefits and implementation strategy
+2. [Risk Management](/business/risk-management) - Security, compliance, and quality assurance
+3. [Enterprise Solutions](/business/enterprise-solutions) - Vendor comparison and deployment models
+4. [Stakeholder Communication](/business/stakeholder-guide) - Executive templates and presentation materials
 
 **Quick Start**: Try this vibe coding conversation pattern right now:
 

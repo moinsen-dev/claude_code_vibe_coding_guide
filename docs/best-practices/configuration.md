@@ -125,7 +125,7 @@ Create `.claude/settings.local.json` for project-specific preferences:
 {
   "allowedTools": ["*"],
   "autoAccept": false,
-  "defaultModel": "claude-3-5-sonnet-20241022",
+  "defaultModel": "claude-3-5-sonnet-20251022",
   "customPrompts": {
     "vibe-coding": "Focus on collaborative, flow-state development"
   }

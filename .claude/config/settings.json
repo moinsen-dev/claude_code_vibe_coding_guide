@@ -1,0 +1,103 @@
+{
+  "hooks": [
+    {
+      "name": "session-start",
+      "path": "~/.claude/hooks/session-start.sh",
+      "events": ["UserPromptSubmit"],
+      "description": "Initializes development session with environment checks and project analysis"
+    },
+    {
+      "name": "tool-complete",
+      "path": "~/.claude/hooks/tool-complete.sh", 
+      "events": ["PostToolUse"],
+      "description": "Runs quality gates and tool-specific automation after each tool execution"
+    },
+    {
+      "name": "code-change",
+      "path": "~/.claude/hooks/code-change.sh",
+      "events": ["PostToolUse"],
+      "filter": {
+        "tools": ["Edit", "Write", "MultiEdit"]
+      },
+      "description": "Handles code change detection with automatic testing and documentation updates"
+    },
+    {
+      "name": "error-handler", 
+      "path": "~/.claude/hooks/error-handler.sh",
+      "events": ["Error"],
+      "description": "Provides intelligent error recovery, diagnostics, and solution suggestions"
+    },
+    {
+      "name": "quality-gates",
+      "path": "~/.claude/hooks/quality-gates.sh",
+      "events": ["PostToolUse"],
+      "filter": {
+        "tools": ["Edit", "Write", "MultiEdit"]
+      },
+      "description": "Enforces code quality standards with linting, formatting, and security checks"
+    },
+    {
+      "name": "smart-companion",
+      "path": "~/.claude/hooks/smart-companion.sh", 
+      "events": ["UserPromptSubmit", "PostToolUse", "Error", "Stop"],
+      "description": "Comprehensive AI assistant providing pattern recognition and workflow optimization"
+    }
+  ],
+  "global_settings": {
+    "notifications": {
+      "enabled": true,
+      "desktop_notifications": true,
+      "team_integration": false
+    },
+    "quality_gates": {
+      "enabled": true,
+      "auto_fix": true,
+      "strict_mode": false
+    },
+    "auto_recovery": {
+      "enabled": true,
+      "max_attempts": 3
+    },
+    "smart_companion": {
+      "learning_mode": true,
+      "proactive_suggestions": true,
+      "pattern_recognition": true
+    }
+  },
+  "project_overrides": {
+    "javascript": {
+      "quality_gates": {
+        "tools": {
+          "eslint": true,
+          "prettier": true,
+          "typescript": true
+        }
+      }
+    },
+    "python": {
+      "quality_gates": {
+        "tools": {
+          "black": true,
+          "flake8": true,
+          "mypy": true
+        }
+      }
+    },
+    "go": {
+      "quality_gates": {
+        "tools": {
+          "gofmt": true,
+          "govet": true
+        }
+      }
+    },
+    "rust": {
+      "quality_gates": {
+        "tools": {
+          "rustfmt": true,
+          "clippy": true
+        }
+      }
+    }
+  }
+}

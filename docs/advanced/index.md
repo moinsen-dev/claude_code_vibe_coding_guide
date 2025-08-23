@@ -15,6 +15,12 @@ Advanced vibe coding isn't just about knowing more commands - it's about develop
 
 ## Advanced Topics
 
+### 🚀 Complete Development Workflows
+Master end-to-end development processes with Claude Code orchestration.
+
+- **[Idea to Production](/advanced/idea-to-production)** - Complete journey from concept to deployed application
+- [Project Lifecycle Management](/advanced/project-lifecycle) - End-to-end development workflows with PRD and state tracking
+
 ### 🤖 Custom Agents and Automation
 Build specialized workflows and automated assistance patterns.
 
@@ -60,3 +66,8 @@ Maximize efficiency and minimize friction in your development flow.
 - [Best Practices Overview](/best-practices/)
 - [Practical Examples](/examples/)
 - [Configuration Options](/best-practices/configuration)
+
+### For Organizations and Teams
+- [Business Case and ROI Analysis](/business/) - Quantified benefits and implementation strategy
+- [Enterprise Risk Management](/business/risk-management) - Security, compliance, and quality assurance
+- [Stakeholder Communication](/business/stakeholder-guide) - Executive templates and presentation materials

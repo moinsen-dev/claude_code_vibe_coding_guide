@@ -13,12 +13,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Comprehensive troubleshooting guide
 - Community contribution guidelines
 
-## [0.2.0] - 2024-01-XX
+## [0.2.0] - 2025-01-XX
 
 ### Added
 - **Complete documentation overhaul**: Transformed from template to comprehensive guide
 - **Vibe Coding Philosophy**: Core principles and flow-state development concepts
-- **Advanced Techniques Section**: 
+- **Advanced Techniques Section**:
   - Custom agents with practical examples
   - Workflow automation and hooks
   - Template systems and reusable patterns
@@ -44,7 +44,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added work-in-progress indicators throughout documentation
 - Established consistent documentation patterns and formatting
 
-## [0.1.0] - 2024-01-XX
+## [0.1.0] - 2025-01-XX
 
 ### Added
 - Initial project setup with VitePress

@@ -1,0 +1,37 @@
+{
+  "notifications": {
+    "enabled": true,
+    "errors": true,
+    "quality_gates": true,
+    "productivity_tips": true
+  },
+  "quality_gates": {
+    "enabled": true,
+    "auto_fix": true,
+    "strict_mode": false
+  },
+  "auto_test": {
+    "enabled": true,
+    "on_file_change": true
+  },
+  "auto_documentation": {
+    "enabled": false,
+    "update_on_significant_changes": true
+  },
+  "team": {
+    "integration_enabled": false,
+    "notifications_enabled": false
+  },
+  "thresholds": {
+    "significant_change": 50,
+    "max_session_duration": 7200
+  },
+  "auto_recovery": {
+    "enabled": true,
+    "max_attempts": 3
+  },
+  "diagnostics": {
+    "enabled": false,
+    "detailed_logging": false
+  }
+}

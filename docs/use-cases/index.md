@@ -8,6 +8,7 @@ Real-world examples of effective Claude Code usage patterns that demonstrate pra
 
 - **[Migration Comparison](/use-cases/migration-comparison)** - Automate visual comparison and feature parity validation when migrating between technology stacks using browser MCP
 
+
 ## Coming Soon
 
 More use cases will be added covering:

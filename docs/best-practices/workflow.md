@@ -80,6 +80,16 @@ For investigating and fixing issues:
 
 ## Related Topics
 
+### Foundation
 - [Communication Best Practices](/best-practices/communication)
 - [Project Setup](/best-practices/project-setup)
-- [Advanced Techniques](/advanced/)
+
+### Advanced Workflows
+- [Personal commands for consistent patterns](/commands/personal-commands)
+- [Complete idea-to-production journey](/advanced/idea-to-production)
+- [Intelligent automation with hooks](/hooks/)
+
+### Real Examples
+- [Command patterns and compositions](/commands/command-patterns)
+- [Multi-agent workflow orchestration](/agents/subagent-patterns)
+- [Production case studies](/examples/real-world-examples)

@@ -1,8 +1,28 @@
 # Getting Started
 
-This guide will help you set up Claude Code for maximum effectiveness in your development workflow.
+Welcome to Claude Code! Whether you're a complete beginner or experienced developer, this guide will help you start building amazing software with AI assistance.
 
-## Prerequisites
+## Choose Your Starting Point
+
+### 🌱 **Complete Beginner** (No coding experience)
+**Perfect for:** Entrepreneurs, business owners, creative professionals, or anyone with great ideas
+
+👉 **[Start Here: Beginner's Guide to Building Your First App](/getting-started/absolute-beginner)**
+
+Learn to transform your ideas into working software using simple, conversational English. No coding knowledge required!
+
+### 👩‍💻 **Developer** (Some coding experience)
+**Perfect for:** Programmers, web developers, software engineers
+
+Continue with the developer setup below to configure Claude Code for your existing workflow.
+
+---
+
+## Developer Setup
+
+This section helps you set up Claude Code for maximum effectiveness in your development workflow.
+
+### Prerequisites
 
 - [Claude Code installed](https://docs.anthropic.com/en/docs/claude-code/installation)
 - Active Claude subscription (Pro or Max recommended for best experience)
@@ -44,7 +64,7 @@ Create `.mcp.json` in your project root to enable additional capabilities:
       "args": ["@browsermcp/mcp@latest"]
     },
     "sequential-thinking": {
-      "command": "npx", 
+      "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
     }
   }
@@ -59,7 +79,7 @@ Create `.claude/settings.local.json` for project-specific preferences:
 {
   "allowedTools": ["*"],
   "autoAccept": false,
-  "defaultModel": "claude-3-5-sonnet-20241022"
+  "defaultModel": "claude-3-5-sonnet-20251022"
 }
 ```
 
@@ -73,6 +93,20 @@ Create `.claude/settings.local.json` for project-specific preferences:
 
 ## Next Steps
 
+### Essential Learning Path
 - [Learn communication best practices](/best-practices/communication)
 - [Set up your development workflow](/best-practices/workflow)
 - [Explore configuration options](/best-practices/configuration)
+
+### Power User Features
+- [Personal commands for consistent workflows](/commands/personal-commands)
+- [Intelligent automation with hooks](/hooks/)
+- [Multi-agent collaboration with subagents](/agents/subagent-patterns)
+
+### Complete Project Workflows
+- [From idea to production deployment](/advanced/idea-to-production)
+- [Real-world examples and case studies](/examples/real-world-examples)
+
+### For Business Leaders
+- [Business case for AI-assisted development](/business/) - ROI analysis and executive summary
+- [Enterprise deployment strategies](/business/enterprise-solutions) - Vendor comparison and risk management

@@ -24,12 +24,19 @@ Effective use of Claude Code comes down to clear communication, good project org
 - Let Claude manage todo lists for multi-step tasks
 - Take advantage of search, file editing, and bash tools
 
+### 5. **Use Your Voice for Vibe Coding**
+- Voice input enables natural, conversational development
+- Speak your ideas directly instead of typing long explanations
+- Perfect for brainstorming sessions and architectural discussions
+- Accelerates the feedback loop between thought and implementation
+
 ## Practice Areas
 
 Each section below covers specific aspects of effective Claude Code usage:
 
 - **[Project Setup](/best-practices/project-setup)**: Organizing files and configuration for optimal AI assistance
 - **[Communication](/best-practices/communication)**: Techniques for clear, effective interaction patterns
+- **[Voice Input](/best-practices/voice-input)**: Using voice for natural, conversational development
 - **[Workflow](/best-practices/workflow)**: Development processes that work well with AI assistance
 - **[Configuration](/best-practices/configuration)**: MCP servers, settings, and customization options
 
@@ -52,3 +59,10 @@ Each section below covers specific aspects of effective Claude Code usage:
 - [ ] Run tests and linting if applicable
 - [ ] Update project documentation
 - [ ] Consider committing changes with descriptive messages
+
+## Additional Resources
+
+### For Teams and Organizations
+- **[Business Case Development](/business/)**: ROI analysis and stakeholder communication
+- **[Enterprise Security](/business/risk-management)**: Risk assessment and compliance frameworks
+- **[Implementation Strategy](/business/enterprise-solutions)**: Vendor selection and deployment models
