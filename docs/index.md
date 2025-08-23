@@ -2,44 +2,61 @@
 layout: home
 
 hero:
-  name: Claude Code Best Practices
-  text: Master AI-Assisted Development
-  tagline: A comprehensive guide to using Claude Code effectively in your development workflow
+  name: Vibe Coding Guide
+  text: Master the Art of Flow-State Development
+  tagline: Discover the mindset, techniques, and workflows that make Claude Code development feel effortless and intuitive
   actions:
     - theme: brand
       text: Get Started
       link: /getting-started
     - theme: alt
       text: View on GitHub
-      link: https://github.com/your-username/claude-code-best-practices
+      link: https://github.com/moinsen-dev/claude_code_vibe_coding_guide
 
 features:
-  - title: 🚀 Quick Setup
-    details: Get up and running with Claude Code in minutes. Learn the essential configurations and project setup patterns.
-  - title: 💡 Best Practices
-    details: Discover proven strategies for effective communication, project organization, and development workflows.
-  - title: 🛠️ Practical Examples
-    details: Real-world examples, templates, and code snippets you can use in your projects immediately.
-  - title: ⚡ Advanced Techniques
-    details: Custom agents, hooks, automation, and advanced features to supercharge your development process.
+  - title: 🌊 Flow State Mastery
+    details: Learn to achieve that perfect "vibe" where you and Claude work together seamlessly, making complex development feel effortless.
+  - title: 💬 Intuitive Communication  
+    details: Master the art of natural dialogue with AI - from exploration to implementation, build through conversation that flows.
+  - title: 🔄 Rhythm and Patterns
+    details: Discover the Think → Plan → Build → Reflect cycle that creates sustainable, productive development workflows.
+  - title: ⚡ Advanced Collaboration
+    details: Custom agents, automation, and sophisticated techniques for power users who want to push the boundaries.
 ---
 
-## Why This Guide?
+## Why Vibe Coding?
 
-Claude Code is a powerful AI-assisted development tool, but like any sophisticated tool, knowing how to use it effectively makes all the difference. This guide distills practical experience into actionable best practices.
+There's a magic moment when working with Claude Code stops feeling like using a tool and starts feeling like collaboration with an insightful partner. This guide teaches you how to find and sustain that flow state consistently.
 
-## What You'll Learn
+## What is Vibe Coding?
 
-- **Project Setup**: How to structure projects for optimal Claude Code integration
-- **Communication Patterns**: Techniques for clear, effective interaction with AI assistance  
-- **Development Workflows**: Proven approaches for iterative development and collaboration
-- **Configuration**: MCP servers, custom agents, and advanced customization
-- **Real Examples**: Copy-paste templates and working configurations
+Vibe coding is about finding your natural rhythm with AI assistance - that zone where:
+
+- **Ideas flow naturally** from concept to implementation
+- **Communication feels intuitive** - you and Claude understand each other perfectly  
+- **Problems solve themselves** through collaborative exploration
+- **Code emerges organically** from clear intent and rich context
+
+## Core Vibe Coding Elements
+
+- **🎯 Context Over Commands**: Rich context creates better collaboration than perfect prompts
+- **🌊 Flow Over Force**: Work with Claude's strengths rather than fighting against them
+- **🔄 Think → Plan → Build → Reflect**: Embrace the natural rhythm of thoughtful development
+- **✨ Dialogue Over Direction**: The best solutions emerge through conversation, not commands
 
 ## Official Documentation
 
 This guide complements the excellent [official Claude Code documentation](https://docs.anthropic.com/en/docs/claude-code/overview). While the official docs cover features comprehensively, this guide focuses on practical application and proven patterns from real-world usage.
 
-## Get Started
+## Start Your Vibe Coding Journey
 
-Ready to improve your Claude Code workflow? [Start with the basics](/getting-started) or jump to [specific best practices](/best-practices/) that interest you most.
+Ready to transform how you develop with AI? [Begin with the essentials](/getting-started) or explore [specific techniques](/best-practices/) that resonate with you.
+
+**Quick Start**: Try this vibe coding conversation pattern right now:
+
+```
+"I want to [your project goal]. Let me think through the architecture 
+first, then we'll plan the implementation and build it step by step."
+```
+
+The magic happens when you embrace exploration, maintain rich context, and build through natural dialogue. Welcome to vibe coding! 🌊

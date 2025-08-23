@@ -4,25 +4,34 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is a Claude Code starter template repository with minimal configuration. The repository contains only MCP (Model Context Protocol) server configuration and is intended as a foundation for new projects.
+This is a VitePress documentation site focused on Claude Code best practices and development workflows. The project provides comprehensive guides, examples, and proven patterns for effective AI-assisted development.
 
-## MCP Configuration
+## Development Commands
 
-The repository includes `.mcp.json` with three pre-configured MCP servers:
+- `npm run dev` - Start VitePress development server
+- `npm run build` - Build documentation site for production
+- `npm run preview` - Preview built site locally
 
-- **browsermcp**: Browser automation and web interaction capabilities
-- **sequential-thinking**: Enhanced reasoning and problem-solving tools  
-- **time**: Time zone conversion and current time utilities
+## Architecture
 
-These servers are available via `npx` and `uvx` package managers and provide additional tools for Claude Code sessions.
+The project uses VitePress for static site generation with the following structure:
 
-## Development Setup
+- `/docs/` - Main documentation content (Markdown files)
+  - `index.md` - Homepage with hero section and features
+  - `getting-started.md` - Initial setup and configuration guide
+  - `best-practices/` - Core practice guides and recommendations
+  - `examples/` - Practical code examples and templates
+  - `advanced/` - Advanced techniques and configurations
+- `package.json` - Node.js project configuration with VitePress dependency
+- `README.md` - Project overview and Claude Code best practices summary
 
-Since this is a starter template, there are no build, test, or lint commands configured yet. Future development may require:
+## Content Guidelines
 
-- Adding a `package.json` for Node.js projects
-- Setting up build and test scripts
-- Configuring linting and formatting tools
-- Adding project-specific dependencies
+When working with documentation content:
 
-The repository structure is intentionally minimal to serve as a clean starting point for various project types.
+- All content is in Markdown format optimized for VitePress
+- Use frontmatter for page configuration and metadata
+- Follow the established tone: practical, actionable guidance
+- Include code examples and real-world scenarios
+- Reference official Claude Code documentation where appropriate
+- Focus on proven patterns rather than theoretical concepts
