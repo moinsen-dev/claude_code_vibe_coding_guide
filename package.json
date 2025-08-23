@@ -1,7 +1,7 @@
 {
   "name": "claude-code-vibe-coding-guide",
-  "version": "0.2.0",
-  "description": "Master the art of vibe coding with Claude Code - achieve flow-state development through AI collaboration",
+  "version": "1.0.0",
+  "description": "Complete guide to vibe coding with Claude Code. Learn prompt engineering, multi-agent patterns, and achieve 3-5x productivity gains through AI collaboration.",
   "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
@@ -17,7 +17,14 @@
   "keywords": [
     "claude-code",
     "vibe-coding",
-    "ai-development",
+    "ai-development", 
+    "prompt-engineering",
+    "multi-agent",
+    "enterprise-ai",
+    "productivity",
+    "automation",
+    "security-validation",
+    "roi-analysis",
     "flow-state",
     "documentation",
     "best-practices"

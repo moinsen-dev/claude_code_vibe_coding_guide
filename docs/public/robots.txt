@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://moinsen-dev.github.io/claude_code_vibe_coding_guide/sitemap.xml
+
+# Additional crawl directives
+Crawl-delay: 1
+
+# Allow specific bot crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# Block unnecessary paths
+User-agent: *
+Disallow: /.vitepress/
+Disallow: /node_modules/
+Disallow: /.git/

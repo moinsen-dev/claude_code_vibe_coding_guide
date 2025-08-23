@@ -4,6 +4,10 @@ Real-world examples of effective Claude Code usage patterns that demonstrate pra
 
 ## Available Use Cases
 
+### 🚀 Featured Case Study
+
+- **[SEO Implementation](/use-cases/seo-implementation)** - **Real-world example**: How we added world-class SEO to this documentation site in 30 minutes using Claude Code, achieving 93% time savings while implementing 25+ SEO elements, comprehensive schema markup, and modern best practices.
+
 ### Development & Migration
 
 - **[Migration Comparison](/use-cases/migration-comparison)** - Automate visual comparison and feature parity validation when migrating between technology stacks using browser MCP
