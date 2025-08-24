@@ -19,6 +19,11 @@ export default withMermaid(
       hostname: "https://moinsen-dev.github.io/claude_code_vibe_coding_guide",
     },
 
+    // URL rewrites for content migration
+    rewrites: {
+      'tips-and-tricks.html': 'tips-and-tricks/index.html'
+    },
+
     themeConfig: {
       nav: [
         { text: "Home", link: "/" },
@@ -47,7 +52,14 @@ export default withMermaid(
             { text: "Resources & References", link: "/resources/" },
             { text: "Use Cases", link: "/use-cases/" },
             { text: "Examples", link: "/examples/" },
-            { text: "Tips & Tricks", link: "/tips-and-tricks" },
+            { 
+              text: "Tips & Tricks", 
+              items: [
+                { text: "Overview", link: "/tips-and-tricks/" },
+                { text: "Anthropic Official", link: "/tips-and-tricks/anthropic" },
+                { text: "Community Experts", link: "/tips-and-tricks/community" },
+              ] 
+            },
             { text: "Troubleshooting", link: "/troubleshooting" },
           ],
         },
@@ -194,7 +206,7 @@ export default withMermaid(
               { text: "Architecture", link: "/advanced/architecture" },
               { text: "Code Review", link: "/advanced/code-review" },
               { text: "Debugging", link: "/advanced/debugging" },
-              { text: "Context Management", link: "/advanced/context" },
+              { text: "Context Engineering", link: "/advanced/context" },
               { text: "Tool Integration", link: "/advanced/tools" },
               { text: "Batch Operations", link: "/advanced/batch" },
             ],
@@ -261,6 +273,16 @@ export default withMermaid(
             items: [
               { text: "Overview", link: "/resources/" },
               { text: "References", link: "/resources/references" },
+            ],
+          },
+        ],
+        "/tips-and-tricks/": [
+          {
+            text: "Tips & Tricks",
+            items: [
+              { text: "Overview", link: "/tips-and-tricks/" },
+              { text: "Anthropic Official", link: "/tips-and-tricks/anthropic" },
+              { text: "Community Experts", link: "/tips-and-tricks/community" },
             ],
           },
         ],

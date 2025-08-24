@@ -47,10 +47,7 @@ features:
 ## Why Choose Vibe Coding for AI-Assisted Development?
 
 <div style="text-align: center; margin: 2rem 0;">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="/vibe-coding-guide-dark.png">
-    <img src="/vibe-coding-guide.png" alt="Vibe Coding Guide - Master AI-Assisted Development with Claude Code" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
-  </picture>
+  <img src="/vibe-coding-guide.png" alt="Vibe Coding Guide - Master AI-Assisted Development with Claude Code" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
 </div>
 
 **Vibe coding** represents the breakthrough moment when AI-assisted development transitions from using a tool to true collaborative partnership. This comprehensive guide teaches developers, teams, and organizations how to achieve consistent flow-state productivity with Claude Code - the world's leading AI coding assistant with **74.5% success rate** on SWE-bench Verified benchmarks¹.
@@ -62,7 +59,7 @@ Transform your software development process with proven techniques that deliver 
 Vibe coding is about finding your natural rhythm with AI assistance - that zone where:
 
 - **Ideas flow naturally** from concept to implementation
-- **Communication feels intuitive** - you and Claude understand each other perfectly  
+- **Communication feels intuitive** - you and Claude understand each other perfectly
 - **Problems solve themselves** through collaborative exploration
 - **Code emerges organically** from clear intent and rich context
 
@@ -125,7 +122,7 @@ Choose your path based on your experience and goals:
 ### 🌱 **Beginner Path**
 Start here if you're new to Claude Code or AI-assisted development:
 1. [Get Started](/getting-started) - Essential setup and first steps
-2. [Best Practices](/best-practices/) - Communication and workflow fundamentals  
+2. [Best Practices](/best-practices/) - Communication and workflow fundamentals
 3. [Commands](/commands/) - Master the command system
 4. [Examples](/examples/) - See patterns in action
 
@@ -153,7 +150,7 @@ For leaders and organizations adopting AI-assisted development:
 **Quick Start**: Try this vibe coding conversation pattern right now:
 
 ```
-"I want to [your project goal]. Let me think through the architecture 
+"I want to [your project goal]. Let me think through the architecture
 first, then we'll plan the implementation and build it step by step."
 ```
 
