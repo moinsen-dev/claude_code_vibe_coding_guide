@@ -40,7 +40,7 @@ Maximize efficiency and minimize friction in your development flow.
 
 - [CLI Automation](/advanced/cli-automation) - Batch processing and automated workflows with CLI
 - [Context Management](/advanced/context) - Maintaining project understanding across sessions
-- [Tool Integration](/advanced/tools) - Integrating with IDEs, CI/CD, and development tools
+- [Tool Integration](/advanced/tools) - Community tools and integrating with IDEs, CI/CD, and development tools
 - [Batch Operations](/advanced/batch) - Efficient multi-file and large-scale changes
 
 ## Power User Tips

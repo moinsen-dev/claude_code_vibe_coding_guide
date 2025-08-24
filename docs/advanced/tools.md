@@ -8,6 +8,19 @@ Seamlessly integrate Claude Code with your existing development tools and workfl
 
 Tool integration in vibe coding isn't about replacing your existing workflow - it's about enhancing it with AI assistance that feels natural and unobtrusive.
 
+## Community Tools
+
+### Open-Source Claude Code Tools
+
+#### [Claude Code Usage Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor)
+Real-time terminal monitoring tool for tracking Claude AI token usage and session limits. Use when you need visibility into token consumption, cost tracking, and want to avoid hitting usage limits during development sessions.
+
+#### [Claude Wizard](https://github.com/moinsen-dev/claude-wizard)
+Interactive CLI for discovering and installing specialized AI agents for Claude Code. Use when you want to extend Claude Code's capabilities with curated agents across engineering, marketing, and design domains.
+
+#### [Claudia](https://github.com/getAsterisk/claudia)
+Desktop GUI application providing visual project management for Claude Code sessions. Use when you prefer a visual interface for managing multiple projects, creating custom agents, and tracking development analytics.
+
 ## Core Integrations
 
 ### IDE Integration
