@@ -1,25 +1,24 @@
 # Tool Integration
 
-> **🚧 Work in Progress** - IDE and development tool integration patterns are being documented.
+> **📍 Content Moved** - Tool documentation has been reorganized for better discoverability.
 
-Seamlessly integrate Claude Code with your existing development tools and workflows for enhanced productivity.
+## New Location
 
-## Integration Philosophy
+**All tool documentation has moved to:** **[Resources > Tools](/resources/tools)**
 
-Tool integration in vibe coding isn't about replacing your existing workflow - it's about enhancing it with AI assistance that feels natural and unobtrusive.
+This includes:
+- Community tools (Claude Code Usage Monitor, Claude Wizard, Claudia)
+- Advanced tools (CCPM, Claude Code Templates)
+- Integration guides and setup instructions
+- Tool comparison and selection guidance
 
-## Community Tools
+## Why the Move?
 
-### Open-Source Claude Code Tools
-
-#### [Claude Code Usage Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor)
-Real-time terminal monitoring tool for tracking Claude AI token usage and session limits. Use when you need visibility into token consumption, cost tracking, and want to avoid hitting usage limits during development sessions.
-
-#### [Claude Wizard](https://github.com/moinsen-dev/claude-wizard)
-Interactive CLI for discovering and installing specialized AI agents for Claude Code. Use when you want to extend Claude Code's capabilities with curated agents across engineering, marketing, and design domains.
-
-#### [Claudia](https://github.com/getAsterisk/claudia)
-Desktop GUI application providing visual project management for Claude Code sessions. Use when you prefer a visual interface for managing multiple projects, creating custom agents, and tracking development analytics.
+Tools are now organized under the Resources section to:
+- Improve discoverability and navigation
+- Group related resources together
+- Provide clearer categorization
+- Simplify the advanced techniques section focus
 
 ## Core Integrations
 

@@ -1,10 +1,29 @@
+---
+tools:
+  - Read
+  - Write
+  - Edit
+  - MultiEdit
+  - Bash
+  - Task
+  - TodoWrite
+description: "Multi-agent feature implementation with comprehensive development workflow"
+category: "development"
+---
+
 ## Usage
 `@code.md <FEATURE_DESCRIPTION>`
 
+## When to Use
+- Implementing new features that require architectural planning
+- Building complex functionality requiring multiple development phases
+- When you need comprehensive implementation with quality validation
+- For features requiring integration with existing codebase patterns
+
 ## Context
 - Feature/functionality to implement: $ARGUMENTS
-- Existing codebase structure and patterns will be referenced using @ file syntax.
-- Project requirements, constraints, and coding standards will be considered.
+- Existing codebase structure and patterns will be referenced using @ file syntax
+- Project requirements, constraints, and coding standards will be considered
 
 ## Your Role
 You are the Development Coordinator directing four coding specialists:
@@ -14,14 +33,23 @@ You are the Development Coordinator directing four coding specialists:
 4. **Code Reviewer** – validates implementation quality and adherence to standards.
 
 ## Process
-1. **Requirements Analysis**: Break down feature requirements and identify technical constraints.
-2. **Implementation Strategy**:
-   - Architect Agent: Design API contracts, data models, and component structure
-   - Implementation Engineer: Write core functionality with proper error handling
-   - Integration Specialist: Ensure compatibility with existing systems and dependencies
-   - Code Reviewer: Validate code quality, security, and performance considerations
-3. **Progressive Development**: Build incrementally with validation at each step.
-4. **Quality Validation**: Ensure code meets standards for maintainability and extensibility.
+1. **Input Validation**: Verify feature description is clear and implementable
+2. **Requirements Analysis**: Break down feature requirements and identify technical constraints
+3. **Agent Coordination**:
+   - **Task Tool**: Delegate complex analysis to specialized agents when needed
+   - **Architect Agent**: Design API contracts, data models, and component structure
+   - **Implementation Engineer**: Write core functionality with proper error handling
+   - **Integration Specialist**: Ensure compatibility with existing systems and dependencies
+   - **Code Reviewer**: Validate code quality, security, and performance considerations
+4. **Progressive Development**: Build incrementally with validation at each step
+5. **Quality Validation**: Ensure code meets standards for maintainability and extensibility
+
+## Error Handling
+Following the [standard command error handling patterns](/commands/#error-handling):
+- **Unclear requirements**: Request specific clarification on feature scope and requirements
+- **Missing dependencies**: Identify and install required dependencies before implementation
+- **Integration conflicts**: Provide alternative approaches or refactoring suggestions  
+- **Quality failures**: Iterate on implementation until standards are met
 
 ## Output Format
 1. **Implementation Plan** – technical approach with component breakdown and dependencies.

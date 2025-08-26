@@ -1,16 +1,19 @@
-# Agents & Subagents
+# Agents & Specialized Agents
 
 Harness the power of specialized AI agents to delegate tasks, maintain context, and create sophisticated collaborative workflows that scale with your development needs.
 
-## Overview
+## Core Philosophy
 
-Claude Code agents are specialized AI assistants that excel at specific domains, tasks, or workflows. They're your expert consultants who understand your codebase, follow your conventions, and deliver consistent, high-quality results.
+Claude Code agents are **context firewalls** - specialized processing units that consume large amounts of information and return focused, actionable insights. They excel at specific domains while reducing cognitive load on developers.
+
+**The Agent Principle**: Agents should process 100% of relevant context but return only 10-20% as concentrated, actionable information.
 
 **Why Use Agents?**
+- **Context Reduction**: Process extensive codebases and return focused insights
 - **Specialization**: Each agent masters specific domains rather than being generalist
 - **Consistency**: Agents apply the same expertise and patterns every time
-- **Scalability**: Delegate complex work while maintaining quality standards
-- **Context Preservation**: Agents remember project patterns and preferences
+- **Scalability**: Delegate complex analysis while maintaining quality standards
+- **Cognitive Load Management**: Handle information processing so you can focus on decision-making
 - **Team Alignment**: Shared agents ensure consistent practices across team members
 
 ## Agent Architecture
@@ -51,7 +54,7 @@ Refactoring, optimization, migration, and technical debt management.
 #### 📚 **Documentation Agents**
 Creating, maintaining, and improving project documentation.
 
-## Subagent Use Cases & Patterns
+## Agent Use Cases & Patterns
 
 ### The Multi-Agent Feature Development Pattern
 
@@ -325,32 +328,94 @@ name: "android-specialist"
 description: "Android native development and Play Store optimization expert"
 ```
 
+## Agent Creation Template
+
+Use this template when creating new agents:
+
+```yaml
+name: "agent-name"
+description: "Single-sentence purpose focused on output, not process"
+instructions: |
+  You are [role] specializing in [domain].
+  
+  CORE PRINCIPLE: Process extensive information, return focused insights.
+  
+  INPUT: [What you expect to receive]
+  PROCESS: [How you analyze the input]  
+  OUTPUT: [Specific format of concise results - aim for 10-20% of input size]
+  
+  FOCUS AREAS:
+  - [Specific concern 1]
+  - [Specific concern 2]
+  - [Specific concern 3]
+  
+  COMMUNICATION STYLE:
+  - Lead with actionable findings
+  - Prioritize critical issues
+  - Provide specific file/line references
+  - Suggest concrete next steps
+  
+tools:
+  - name: "Read"
+  - name: "Grep"
+context_files:
+  - "relevant-project-files.md"
+```
+
+## Agent Anti-Patterns
+
+**❌ Avoid These Common Mistakes:**
+
+### The Verbose Responder
+- **Problem**: Agents that return as much information as they process
+- **Solution**: Always summarize and prioritize findings
+
+### The Generalist Agent  
+- **Problem**: Agents that try to handle multiple unrelated domains
+- **Solution**: Create focused, single-purpose agents
+
+### The Anthropomorphized Assistant
+- **Problem**: Agents with personality or conversational behavior  
+- **Solution**: Focus on processing patterns and consistent output formats
+
+### The Inconsistent Agent Communication
+- **Problem**: Mixing "agent" and "subagent" terminology without clear distinction
+- **Solution**: Use "agent" consistently, specify "specialized agent" when needed for clarity
+
+### The Simple Task Handler
+- **Problem**: Using agents for tasks that don't need context reduction
+- **Solution**: Use agents only when processing complexity exceeds output complexity
+
+### The Inter-Agent Communicator
+- **Problem**: Agents designed to work with other agents
+- **Solution**: Design independent agents with clear handoff points
+
 ## Agent Management Best Practices
 
-### 1. **Scope Limitation** 🎯
-- Give agents specific, well-defined responsibilities
-- Limit tool access to what each agent actually needs
-- Avoid creating "do everything" agents
+### 1. **Single Purpose Design** 🎯
+- Give agents one clear, specific responsibility
+- Limit tool access to exactly what each agent needs
+- Ensure agents can operate independently
 
-### 2. **Context Optimization** 📋
+### 2. **Context Reduction Focus** 📋
+- Train agents to process large inputs and return focused outputs
 - Include relevant documentation in context_files
-- Keep agent instructions focused and actionable
-- Update context as project evolves
+- Measure success by output conciseness and actionability
 
-### 3. **Quality Validation** ✅
+### 3. **Output Standardization** ✅
+- Define clear output formats for consistent results
 - Test agents with real scenarios before team adoption
-- Validate outputs match expected quality standards
-- Iterate on instructions based on actual usage
+- Validate that outputs are actionable, not just informative
 
 ### 4. **Team Coordination** 🤝
 - Share successful agent configurations with team
 - Establish naming conventions for agent organization
-- Document agent capabilities and use cases
+- Document specific use cases and expected outcomes
 
 ### 5. **Evolution Management** 🔄
 - Version control agent configurations
 - Update agents as project patterns change
-- Retire or merge agents that become redundant
+- Retire agents that don't provide sufficient value over simple tasks
 
 ## Integration with Command System
 
@@ -386,3 +451,10 @@ Agents work seamlessly with command workflows:
 - `infrastructure-perf`: Scaling and resource optimization expert
 
 This agent ecosystem transforms development from individual effort into orchestrated specialist collaboration, delivering higher quality results while maintaining development velocity.
+
+## Quick Setup Resources
+
+Accelerate your agent development:
+
+- **[Claude Code Templates](https://github.com/davila7/claude-code-templates)** - Pre-configured agents for frontend, backend, testing, and specialized domains
+- **[CCPM](/resources/tools#ccpm---claude-code-project-management)** - Parallel agent execution system for complex multi-agent workflows

@@ -272,6 +272,7 @@ export default withMermaid(
             text: "Resources",
             items: [
               { text: "Overview", link: "/resources/" },
+              { text: "Tools", link: "/resources/tools" },
               { text: "References", link: "/resources/references" },
             ],
           },
